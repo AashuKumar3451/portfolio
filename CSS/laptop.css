@@ -1,0 +1,99 @@
+
+/* Menu Btn */
+#menuBtn{
+    display: block;
+}
+/* Navbar */
+#headerAndServices{
+    display: grid;
+    grid-template-columns: 1fr;
+ 
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    padding: 0rem;
+}
+header.sticky{
+    padding: 0rem;
+}
+/* Nav Services */
+#navServices{
+    margin-top: 10px;
+
+    position: relative;
+    left: 100%;
+    overflow: hidden;
+    font-size: .9rem;
+}
+/* About Section */
+#aboutSection{
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+    text-align: center;
+}
+#aboutInfo{
+    font-size: 1.3rem;
+
+}
+#aboutInfo h2{
+    font-size: 1.5rem;
+
+}
+#aboutPhoto img {
+    width: 30rem;
+}
+#aboutPhoto{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#seeMyWork{
+    padding: 1.5rem 2.5rem;
+}
+
+/* Project catalog */
+#projectCatalog {
+    margin: 2rem 5rem;
+    grid-template-columns: 1fr;
+}
+.projectImage img {
+    height: 22rem;
+}
+
+/* Service Catalog */
+#serviceCatalog{
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem;
+}
+.serviceCard{
+    padding: 2rem;
+}
+
+/* Pricing Catalog */
+#pricingCatalog{
+    margin: .2rem;
+    font-size: 1rem;
+}
+/* Testimonail Catalog */
+#testimoialCatalog{
+    grid-gap: .2rem;
+    grid-template-columns: 1fr;
+}
+.testimonialCard{
+    grid-gap: 0.2em;
+    grid-template-columns: 0fr 3fr;
+}
+.testimonialImage{
+    transform: translateX(50%);
+}
+
+/* Contact Section */
+#contactSection {
+    margin: 5% 10%;
+}

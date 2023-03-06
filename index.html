@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aashu | Your web developer</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" media="screen and (min-width:1000px) and (max-width:1257px)" href="CSS/desktop.css">
+    <link rel="stylesheet" media="screen and (min-width:880px) and (max-width:1000px)" href="CSS/laptop.css">
+    <link rel="stylesheet" media="screen and (min-width:730px) and (max-width:880px)" href="CSS/tablet.css">
+    <link rel="stylesheet" media="screen and (min-width:560px) and (max-width:730px)" href="CSS/miniTablet.css">
+    <link rel="stylesheet" media="screen and (min-width:380px) and (max-width:560px)" href="CSS/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width:200px) and (max-width:380px)" href="CSS/smallPhones.css">
+</head>
+
+<body>
+    <div id="bodyContainer">
+        <!-- homeSection -->
+        <div id="homeSection">
+
+            <!-- Navbar -->
+            <header id="headerAndServices">
+                <div id="navbar">
+                    <div id="titleLogo">
+                        <img src="IMGs/titleLogo.png" alt="logo">
+                        <a href="#">
+                            <h1>AK</h1>
+                        </a>
+                    </div>
+                    <div id="menuBtn"><img src="IMGs/menuLine.png" alt="menu"></div>
+                </div>
+                <div id="navServices" class="commonFont">
+                    <a href="#homeSection" class="activeService">Home</a>
+                    <a href="#aboutSection">About</a>
+                    <a href="#portfolioSection">portfolio</a>
+                    <a href="#testimonialSection">Testimonials</a>
+                    <a href="#contactSection">Contact</a>
+                    <a href="#pricingSection">Pricing</a>
+                    <a href="#serviceSection">Services</a>
+                </div>
+            </header>
+
+            <!-- introSection -->
+            <div id="introSection">
+                <h1 class="lightBlack">Hi!</h1>
+                <h1>I am Ashish Kumar</h1>
+                <h1>Frontend Web Designer</h1>
+                <button id="seeMyWork">See My Work</button>
+            </div>
+        </div>
+
+        <!-- aboutSection -->
+        <div id="aboutSection">
+
+            <!-- aboutPhoto -->
+            <div id="aboutPhoto">
+                <img src="IMGs/me2.jpg" alt="me">
+            </div>
+
+            <!-- aboutInfo -->
+            <div id="aboutInfo">
+                <h2 class="lightBlack otherFont">Who Am I ?</h2>
+                <h1 class="complementry commonFont">About Me</h1>
+                <div id="information" class="otherFont black">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore at obcaecati dolores?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas quaerat dolor, recusandae
+                        magnam quos est nemo, cum sit minima repellendus error dolore iusto.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi recusandae temporibus, dolorum
+                        voluptatem dolor nemo officia in quod obcaecati laborum illum vitae quisquam omnis ex.
+                        Voluptates, officiis explicabo aliquam inventore eum veritatis a hic.</p>
+                </div>
+                <a href="Files/CV - Aashu Kumar.pdf" id="downloadCV" download="" class="otherFont">Download CV</a>
+            </div>
+        </div>
+
+        <!-- portfolioSection -->
+        <div id="portfolioSection">
+            <h2 class="lightBlack center otherFont">What I Did ?</h2>
+            <h1 class="commonFont center complementry">Portfolio</h1>
+            <div id="projectCatalog">
+                <!-- DOM Manipulation -->
+            </div>
+        </div>
+
+        <!-- Service Section -->
+        <div id="serviceSection">
+            <h2 class="lightBlack center otherFont">What I Do ?</h2>
+            <h1 class="commonFont center complementry">Service</h1>
+            <div id="serviceCatalog">
+                <!-- DOM Manipulation -->
+            </div>
+        </div>
+
+        <!-- Pricing Section -->
+        <div id="pricingSection">
+            <h2 class="lightBlack center otherFont">How Much I Charge ?</h2>
+            <h1 class="commonFont center complementry">My Pricing</h1>
+            <div id="pricingCatalog">
+                <!-- DOM Manipulation -->
+            </div>
+        </div>
+
+        <!-- Work With Me Section -->
+        <div id="workWithMeSection">
+            <div id="workWithMeDecription">
+                <h2 class="commonFont white left light">Want to work with me?</h2>
+                <p class="otherFont white left light">Always feel free to contact & Hire me</p>
+            </div>
+            <div id="hireButton">
+                <a href="#" id="hireBtn" class="commonFont" target="_blank">Hire Me</a>
+            </div>
+        </div>
+
+        <!-- Testimonial Section -->
+        <div id="testimonialSection">
+            <h2 class="lightBlack center otherFont">What Think Client About Me ?</h2>
+            <h1 class="commonFont center complementry">Testimonial</h1>
+            <div id="testimoialCatalog">
+                <!-- DOM Manipulation -->
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div id="contactSection">
+            <h2 class="lightBlack center otherFont">How can you communicate ?</h2>
+            <h1 class="commonFont center complementry">Contact Me</h1>
+            <form onsubmit="sendEmail();reset();return false;">
+                <div id="contactForm">
+                    <div id="nameAndEmail">
+                        <input type="text" name="name" id="name" placeholder="Enter you name : ">
+                        <input type="email" name="email" id="email" placeholder="Enter your email : ">
+                    </div>
+                    <textarea name="message" id="message" cols="30" rows="10"
+                        placeholder="Enter your message"></textarea>
+                    <div id="contactButton"><a href="#" class="center otherFont" id="contactBtn" target="_blank">Contact
+                            Us</a></div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Footer Section -->
+        <footer id="footerSection">
+            <hr>
+            <div id="footerAndSocial">
+                <div id="footerText" class="white otherFont">Copyright 2045 &copy; Aashu</div>
+                <div id="socialMedia">
+                    <img src="IMGs/fb.png" alt="Facebook Handle" id="fbIcon">
+                    <img src="IMGs/insta.png" alt="Instagram Handle" id="instaIcon">
+                    <img src="IMGs/gmail.png" alt="Gmail Handle" id="mailIcon">
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+    <script src="JavaScript/script.js"></script>
+</body>
+
+</html>

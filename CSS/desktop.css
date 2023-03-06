@@ -1,0 +1,63 @@
+body{
+    background-color: yellow;
+}
+
+/* Navbar */
+#headerAndServices{
+    display: grid;
+    grid-template-columns: 1fr;
+ 
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Nav Services */
+#navServices{
+    margin-top: 10px;
+    position: relative;
+    left: 100%;
+    overflow: hidden;
+}
+/* About */
+#seeMyWork{
+    padding: 1.5rem 2.5rem;
+}
+
+/* Menu Btn */
+#menuBtn{
+    display: block;
+}
+/* Project catalog */
+#projectCatalog {
+    margin: 2rem 2rem;
+}
+
+/* Pricing Catalog */
+#pricingCatalog{
+    margin: 2rem;
+}
+
+/* Testimonail Catalog */
+#testimoialCatalog{
+    grid-gap: .2rem;
+    grid-template-columns: 1fr;
+}
+.testimonialCard{
+    grid-gap: 0.2em;
+    grid-template-columns: 0fr 3fr;
+}
+.testimonialImage{
+    transform: translateX(50%);
+}
+
+/* Service Catalog */
+#serviceCatalog {
+    margin: 2rem;
+}
+
+/* Contact Section */
+#contactSection {
+    margin: 5% 10%;
+}
