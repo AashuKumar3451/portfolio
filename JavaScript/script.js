@@ -157,3 +157,6 @@ menuBtn.addEventListener('click', () => {
         navServices.style.left = '100%';
     }
 });
+
+//See my Work button
+let seeMyWork = document.getElementById('seeMyWork');
